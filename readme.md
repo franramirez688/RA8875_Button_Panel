@@ -1,6 +1,6 @@
 # Button Panel Library for Arduino TFT Touch Display
 
-Make automatically several buttons with different functionalities and draw, in your Arduino TFT Touch Display, some shapes with each one.
+Make automatically several buttons with different functionalities and draw some shapes with each one in your Arduino TFT Touch Display.
 
 ## Hardware
 
@@ -14,17 +14,17 @@ This library depends on [fenix/ra8875_calibrate library](https://www.biicode.com
 
 ## Getting Started
 
-Take a look to [biicode homepage](https://www.biicode.com) and my user [fenix](https://www.biicode.com/fenix).
+Have a look at [biicode homepage](https://www.biicode.com) and my user [fenix](https://www.biicode.com/fenix).
 
-Only you have to include "fenix/ra8875_button_panel/button_panel.h" and execute:
+You only have to include "fenix/ra8875_button_panel/button_panel.h" and execute:
 
     $ bii find
 
-All necessary will be downloaded in your ``your_bii_workspace/your_hive/depsfolder``
+Everything you need will be downloaded in your ``your_bii_workspace/your_hive/depsfolder``
 
 ## Basic usage
 
-In a sketch.cpp example you only need to declare the following lines to use this library:
+In `sketch.cpp` example, you only need to write the following lines to use this library:
 
     #include "fenix/ra8875_app/button_panel.h"
     ButtonPanel panel;
